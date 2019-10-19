@@ -12,15 +12,13 @@ namespace kalkulator
         {
             while(true)
             {
-                Console.WriteLine("0. wyjscie");
-                Console.WriteLine("1. Dodawanie");
-                Console.WriteLine("2. Odejmowanie");
                 int menuOption = Convert.ToInt32(Console.ReadLine());
-
+                Console.WriteLine("4. wyjscie");
+                Console.WriteLine("1. ADD");            
                 if (menuOption == 0)
-                {
-                    break;
-                }
+                break;
+                Console.WriteLine("2. DIFF");
+
             }
         }
     }
